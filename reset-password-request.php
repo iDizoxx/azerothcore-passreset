@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p><a href='$resetLink' style='color: #4CAF50;'>Reset your password</a></p>
                 <p>If you didn't request this, please ignore this email.</p>
                 <p>Best regards,</p>
-                <p>The Kara'Bor Team</p>
+                <p>Your lovely team</p>
             </body>
             </html>
         ";
