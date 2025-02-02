@@ -39,3 +39,11 @@ form#resetPasswordForm input[type="submit"]:hover, form#resetRequestForm input[t
 div#responseMessage {
     margin: 30px 0px;
 }
+
+.error-reg {
+    background-color: #ffd9d9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin: 20px 0px;
+}
