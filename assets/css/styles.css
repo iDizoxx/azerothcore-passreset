@@ -1,0 +1,41 @@
+.container-account {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #f6f6f6;
+    padding: 40px;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding/border are included in width calculation */
+}
+
+.row-account.form-login-account label {
+    font-size: 14px;
+}
+
+form#resetPasswordForm input, form#resetRequestForm input {
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form#resetPasswordForm input[type="submit"], form#resetRequestForm input[type="submit"] {
+    border: 0px;
+    transition: 0.3s ease;
+}
+
+form#resetPasswordForm input[type="submit"]:hover, form#resetRequestForm input[type="submit"]:hover {
+    background-color: #dfdfdf;
+}
+
+.success-reg {
+    background-color: #d0ffd0;
+    padding: 10px;
+    border: 1px solid #00cf00;
+    border-radius: 4px;
+}
+
+div#responseMessage {
+    margin: 30px 0px;
+}
